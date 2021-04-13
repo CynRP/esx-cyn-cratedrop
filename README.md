@@ -4,6 +4,14 @@
 
 This resource for ESX adds cratedrops on the server where a player access a store to pay an amount for a cratedrop on a random location in the server with a simple configuration to add more locations, items and more.
 
+
+### Issues / Ideas for my next project
+```
+Got issues with a script, ideas to add to a current script or for a new project? Join my Discord Server and bring me the feedback.
+```
+- Discord: https://discord.gg/RVYC6th8xY
+
+
 ### Requirements
 * ESX (es_extended)
 
