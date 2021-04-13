@@ -1,3 +1,5 @@
+![image](https://i.imgur.com/MBbTFCb.png)
+
 # esx-cyn-cratedrop
 
 This resource for ESX adds cratedrops on the server where a player access a store to pay an amount for a cratedrop on a random location in the server with a simple configuration to add more locations, items and more.
