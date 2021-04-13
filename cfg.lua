@@ -1,0 +1,157 @@
+Crates = {}
+
+-- SHOP LOCATIONS
+Crates.Locations = {
+    {x = 104.71, y = -1044.15, z = 29.35}
+}
+
+-- CRATE TYPES WITH PRICE, PROP TYPE AND ITEMS TO GET :)
+Crates.CrateTypes = {
+    {name = "Small Weapons Crate", price = 15000, minItems = 5, maxItems = 12, prop = "ex_prop_adv_case_sm_flash", items = {
+        {name = "WEAPON_BAT", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_FLASHLIGHT", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_POOLCUE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_KNIFE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_SWITCHBLADE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_KNUCKLE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_PISTOL", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_SNSPISTOL", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_PISTOL50", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_REVOLVER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_WRECH", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_HAMMER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_MACHETE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_HATCHET", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_BATTLEAXE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_BOTTLE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_DAGGER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_GOLFCLUB", min = 1, max = 1, type = 'weapon'},
+        {name = "opium1g", min = 1, max = 5, type = 'item'},
+        {name = "weed5g", min = 1, max = 5, type = 'item'},
+        {name = "opiumbrick", min = 1, max = 2, type = 'item'},
+        {name = "methbrick", min = 1, max = 2, type = 'item'}
+    }},
+
+    {name = "Medium Weapons Crate", price = 25000, minItems = 5, maxItems = 10, prop = "ex_prop_crate_ammo_sc", items = {
+        {name = "WEAPON_BAT", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_FLASHLIGHT", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_POOLCUE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_KNIFE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_SWITCHBLADE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_KNUCKLE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_PISTOL", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_SNSPISTOL", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_PISTOL50", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_REVOLVER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_WRECH", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_HAMMER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_MACHETE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_HATCHET", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_BATTLEAXE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_BOTTLE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_DAGGER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_GOLFCLUB", min = 1, max = 1, type = 'weapon'},
+        {name = "opium1g", min = 1, max = 5, type = 'item'},
+        {name = "weed5g", min = 1, max = 5, type = 'item'},
+        {name = "opiumbrick", min = 1, max = 2, type = 'item'},
+        {name = "methbrick", min = 1, max = 2, type = 'item'}
+    }},
+
+    {name = "Large Weapons Crate", price = 60000, minItems = 3, maxItems = 9, prop = "ex_prop_crate_ammo_bc", items = {
+        {name = "WEAPON_BAT", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_FLASHLIGHT", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_POOLCUE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_KNIFE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_SWITCHBLADE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_KNUCKLE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_PISTOL", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_SNSPISTOL", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_PISTOL50", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_REVOLVER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_WRECH", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_HAMMER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_MACHETE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_HATCHET", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_BATTLEAXE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_BOTTLE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_DAGGER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_GOLFCLUB", min = 1, max = 1, type = 'weapon'},
+        {name = "opium1g", min = 1, max = 5, type = 'item'},
+        {name = "weed5g", min = 1, max = 5, type = 'item'},
+        {name = "opiumbrick", min = 1, max = 2, type = 'item'},
+        {name = "methbrick", min = 1, max = 2, type = 'item'}
+    }},
+
+    {name = "Ammo Crate", price = 8000, minItems = 3, maxItems = 6, prop = "ex_prop_crate_ammo_sc", items = {
+        {name = "WEAPON_BAT", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_FLASHLIGHT", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_POOLCUE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_KNIFE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_SWITCHBLADE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_KNUCKLE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_PISTOL", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_SNSPISTOL", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_PISTOL50", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_REVOLVER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_WRECH", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_HAMMER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_MACHETE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_HATCHET", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_BATTLEAXE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_BOTTLE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_DAGGER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_GOLFCLUB", min = 1, max = 1, type = 'weapon'},
+        {name = "opium1g", min = 1, max = 5, type = 'item'},
+        {name = "weed5g", min = 1, max = 5, type = 'item'},
+        {name = "opiumbrick", min = 1, max = 2, type = 'item'},
+        {name = "methbrick", min = 1, max = 2, type = 'item'}
+    }},
+
+    {name = "Items Crate", price = 7000, minItems = 7, maxItems = 15, prop = "ex_prop_crate_ammo_bc", items = {
+        {name = "WEAPON_BAT", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_FLASHLIGHT", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_POOLCUE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_KNIFE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_SWITCHBLADE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_KNUCKLE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_PISTOL", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_SNSPISTOL", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_PISTOL50", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_REVOLVER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_WRECH", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_HAMMER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_MACHETE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_HATCHET", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_BATTLEAXE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_BOTTLE", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_DAGGER", min = 1, max = 1, type = 'weapon'},
+        {name = "WEAPON_GOLFCLUB", min = 1, max = 1, type = 'weapon'},
+        {name = "opium1g", min = 1, max = 5, type = 'item'},
+        {name = "weed5g", min = 1, max = 5, type = 'item'},
+        {name = "opiumbrick", min = 1, max = 2, type = 'item'},
+        {name = "methbrick", min = 1, max = 2, type = 'item'}
+    }}
+}
+
+-- WHERE THE CRATES ARE GONNA DROP
+Crates.DropLocations = {
+    {x = 3738.3, y = 3903.03, z = 27.98, clue = "SAN CHIANSKI"},
+    {x = 3686.56, y = 4932.08, z = 16.79, clue = "LIGHTHOUSE"},
+    {x = 1951.74, y = 4975.39, z = 42.13, clue = "GRAPESEED"},
+    {x = 156.12, y = 3721.29, z = 30.83, clue = "STAB CITY"},
+    {x = -1972.77, y = 2600.04, z = 0.6, clue = "LAGO ZANCUDO"},
+    {x = -1235.04, y = 66.0, z = 51.74, clue = "GOLFING"},
+    {x = -872.71, y = -3122.15, z = 2.53, clue = "LS AIRPORT"},
+    {x = 1887.62, y = -1935.02, z = 170.77, clue = "PALOMINO HIGHLANDS"},
+    {x = 2677.41, y = -366.22, z = 108.08, clue = "TATAVIAM MOUNTAINS"},
+    {x = 876.68, y = 1125.2, z = 302.32, clue = "VINEWOOD HILLS"},
+    {x = -3160.34, y = 782.85, z = 3.37, clue = "GREAT OCEAN"},
+    {x = 861.68, y = 5293.29, z = 380.84, clue = "MOUNT CHILIAD"},
+    {x = -2594.5, y = 369.6, z = 210.7, clue = "PACIFIC BLUFFS"},
+    {x = -1153.1, y = 3495.6, z = 239.6, clue = "MOUNT JOSIAH"},
+    {x = 154.6, y = 1792.5, z = 203.0, clue = "GRAND SENORA DESERT"},
+    {x = -622.5, y = -1850.3, z = 28.0, clue = "MAZE BANK ARENA"},
+    {x = 1620.1, y = 802.0, z =128.3, clue = "WATERPLANT"},
+    {x = 61.1, y = 7172.6, z = 8.5, clue = "PALETO BAY"},
+    {x = -2176.4, y = 5182.4, z = 15.5, clue = "PALETO COVE"}
+}
